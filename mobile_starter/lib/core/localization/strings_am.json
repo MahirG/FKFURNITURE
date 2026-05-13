@@ -11,5 +11,9 @@
   "job_status": "የሥራ ሁኔታ",
   "location": "አካባቢ",
   "availability": "ተገኝነት",
-  "hobbies": "የመዝናኛ ፍላጎቶች"
+  "hobbies": "የመዝናኛ ፍላጎቶች",
+  "profile_setup": "መገለጫ ማስተካከያ",
+  "height_cm": "ቁመት (ሴ.ሜ)",
+  "save_profile": "መገለጫ አስቀምጥ",
+  "complete_profile": "መገለጫ አጠናቅቅ"
 }

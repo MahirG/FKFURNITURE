@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../core/localization/app_localizations.dart';
+import '../../../profile/presentation/screens/profile_setup_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -26,6 +27,15 @@ class HomeScreen extends StatelessWidget {
           _infoTile(tr.t('location'), 'Addis Ababa'),
           _infoTile(tr.t('availability'), 'Weekends'),
           _infoTile(tr.t('hobbies'), 'Reading, Football, Volunteering'),
+          const SizedBox(height: 12),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const ProfileSetupScreen()),
+              );
+            },
+            child: Text(tr.t('complete_profile')),
+          ),
         ],
       ),
     );
