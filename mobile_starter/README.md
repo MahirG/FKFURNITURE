@@ -19,3 +19,7 @@ flutter run
 
 ## Next integration step
 - Replace in-memory repository with Supabase-backed CRUD and OTP auth.
+
+
+## Visual preview
+- See `docs_app_preview.md` for exactly how to run and view each screen locally.
