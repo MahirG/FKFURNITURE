@@ -16,5 +16,7 @@
   "height_cm": "ቁመት (ሴ.ሜ)",
   "save_profile": "መገለጫ አስቀምጥ",
   "complete_profile": "መገለጫ አጠናቅቅ",
-  "weight_kg": "ክብደት (ኪ.ግ)"
+  "weight_kg": "ክብደት (ኪ.ግ)",
+  "no_profiles_yet": "እስካሁን መገለጫ የለም። ከመገለጫ ማስተካከያ ያክሉ።",
+  "view_discover_feed": "የመፈለጊያ ፊድ ይመልከቱ"
 }

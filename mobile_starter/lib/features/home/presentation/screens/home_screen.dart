@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../core/localization/app_localizations.dart';
+import '../../../discover/presentation/screens/discover_screen.dart';
 import '../../../profile/presentation/screens/profile_setup_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -35,6 +36,15 @@ class HomeScreen extends StatelessWidget {
               );
             },
             child: Text(tr.t('complete_profile')),
+          ),
+          const SizedBox(height: 8),
+          OutlinedButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const DiscoverScreen()),
+              );
+            },
+            child: Text(tr.t('view_discover_feed')),
           ),
         ],
       ),

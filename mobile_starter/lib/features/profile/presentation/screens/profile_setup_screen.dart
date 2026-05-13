@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../../../core/localization/app_localizations.dart';
 import '../../../../core/utils/validators.dart';
-import '../../data/profile_repository.dart';
 import '../../domain/profile_model.dart';
+import '../providers/profile_provider.dart';
 
 class ProfileSetupScreen extends StatefulWidget {
   const ProfileSetupScreen({super.key});
@@ -14,7 +15,6 @@ class ProfileSetupScreen extends StatefulWidget {
 
 class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   final _formKey = GlobalKey<FormState>();
-  final _repository = ProfileRepository();
 
   final _nameController = TextEditingController();
   final _ageController = TextEditingController();
@@ -97,7 +97,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
       hobbies: _hobbiesController.text.trim(),
     );
 
-    await _repository.saveProfile(model);
+    await context.read<ProfileProvider>().saveProfile(model);
 
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
