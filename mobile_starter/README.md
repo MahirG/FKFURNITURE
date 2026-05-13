@@ -27,3 +27,7 @@ flutter run
 
 ## Production roadmap
 - See `PRODUCTION_NEXT_STEP.md` for the production-ready v1 implementation plan.
+
+
+## PC setup guide
+- See `QUICKSTART_PC.md` for step-by-step local setup and run/build instructions on your computer.
