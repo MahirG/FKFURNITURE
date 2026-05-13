@@ -1,0 +1,22 @@
+name: muslim_match_ethiopia
+version: 0.1.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  provider: ^6.1.2
+  go_router: ^14.8.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/core/localization/strings_en.json
+    - lib/core/localization/strings_am.json
+    - lib/core/localization/strings_om.json

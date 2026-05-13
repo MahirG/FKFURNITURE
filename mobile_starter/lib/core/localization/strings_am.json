@@ -1,0 +1,15 @@
+{
+  "app_name": "ሙስሊም ማች ኢትዮጵያ",
+  "choose_language": "ቋንቋዎን ይምረጡ",
+  "discover": "መፈለጊያ",
+  "name": "ስም",
+  "age": "እድሜ",
+  "religion": "ሀይማኖት",
+  "height": "ቁመት",
+  "weight": "ክብደት",
+  "occupation": "ሙያ",
+  "job_status": "የሥራ ሁኔታ",
+  "location": "አካባቢ",
+  "availability": "ተገኝነት",
+  "hobbies": "የመዝናኛ ፍላጎቶች"
+}
