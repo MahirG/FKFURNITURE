@@ -50,3 +50,8 @@ flutter run
 ## Note
 The execution environment used for this repository update does not include Flutter SDK,
 so live rendering could not be launched here.
+
+
+## New next-step UX
+- Bottom navigation added: Discover / Matches / Profile Setup
+- Discover now shows seeded demo profiles immediately so you can see the app right away.

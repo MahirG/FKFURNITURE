@@ -18,5 +18,7 @@
   "complete_profile": "Complete Profile",
   "weight_kg": "Weight (kg)",
   "no_profiles_yet": "No profiles yet. Add one from Profile Setup.",
-  "view_discover_feed": "View Discover Feed"
+  "view_discover_feed": "View Discover Feed",
+  "matches": "Matches",
+  "matches_coming_soon": "Matches feature coming soon"
 }

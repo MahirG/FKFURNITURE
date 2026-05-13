@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../../core/localization/app_localizations.dart';
 import '../../../../core/localization/locale_provider.dart';
-import '../../../home/presentation/screens/home_screen.dart';
+import '../../../navigation/presentation/screens/main_nav_screen.dart';
 
 class LanguageSelectScreen extends StatelessWidget {
   const LanguageSelectScreen({super.key});
@@ -42,7 +42,7 @@ class LanguageSelectScreen extends StatelessWidget {
   void _continue(BuildContext context, String code) {
     context.read<LocaleProvider>().setLocale(code);
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => const HomeScreen()),
+      MaterialPageRoute(builder: (_) => const MainNavScreen()),
     );
   }
 }
