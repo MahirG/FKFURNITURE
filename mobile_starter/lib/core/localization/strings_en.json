@@ -15,5 +15,6 @@
   "profile_setup": "Profile Setup",
   "height_cm": "Height (cm)",
   "save_profile": "Save Profile",
-  "complete_profile": "Complete Profile"
+  "complete_profile": "Complete Profile",
+  "weight_kg": "Weight (kg)"
 }
